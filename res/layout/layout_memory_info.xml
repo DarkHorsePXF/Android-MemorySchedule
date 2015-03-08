@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txtMemName"
+        android:text="分区号"
+        android:gravity="center"
+        android:layout_weight="1"/>
+    <TextView 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txtMemAddr"
+        android:gravity="center"
+        android:text="始地址"
+        android:layout_weight="1"/>
+    <TextView 
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/txtMemSize"
+        android:gravity="center"
+        android:text="大小"
+        android:clickable="false"
+        android:layout_weight="1"/>
+    <Button 
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:id="@+id/btnMemRecycle"
+        android:layout_weight="0.5"
+        android:text="回收"
+        android:layout_gravity="bottom|center"
+        android:background="@color/gray"
+        android:textSize="12sp"/>
+
+</LinearLayout>

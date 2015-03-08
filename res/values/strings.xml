@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">内存调度演示</string>
+    <string name="title_section1">循环首次适应</string>
+    <string name="title_section2">最佳适应</string>
+    <string name="title_section3">段页式存储</string>
+    <string name="title_section4">多道</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_run">RUN</string>
+    <string name="action_stop">STOP</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">重置作业</string>
+    <string name="action_print">打印记录</string>
+    <string name="action_clean">清除记录</string>
+
+</resources>

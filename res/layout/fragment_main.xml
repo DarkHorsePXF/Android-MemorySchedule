@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.memory.MainActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/txtDivide0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="————— HD —————"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/llBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDivide0" >
+
+        <Button
+            android:id="@+id/btnJob1"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text="A"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnJob2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text="B"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnJob3"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text="C"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnJob4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text="D"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnJob5"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/gray"
+            android:text="E"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDivide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llBtn"
+        android:gravity="center|bottom"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnShowLv"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="@color/gray"
+            android:text="显示完成作业" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvJob"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/llDivide"
+        android:background="#00FFF0"
+        android:dividerHeight="3dp"
+        android:visibility="gone"
+         >
+    </ListView>
+
+    <TextView
+        android:id="@+id/txtDivide1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lvJob"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="————— RAM —————"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lvMemory"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/txtDivide1"
+        android:background="@color/gold"
+        android:dividerHeight="3dp"
+        >
+    </ListView>
+
+    
+
+</RelativeLayout>
